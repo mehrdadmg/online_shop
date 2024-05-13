@@ -1,1 +1,85 @@
+@import-normalize;
 
+@font-face {
+  font-family: 'SFProDisplay-Regular', sans-serif;
+  src: url(./fonts/SFProDisplay-Regular.woff2) format('woff2'), url(./fonts/SFProDisplay-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SFProDisplay-Medium', sans-serif;
+  src: url('./fonts/SFProDisplay-Medium.woff2') format('woff2'), url('./fonts/SFProDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SFProDisplay-Semibold', sans-serif;
+  src: url('./fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+    url('./fonts/SFProDisplay-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SFProDisplay-Bold', sans-serif;
+  src: url('./fonts/SFProDisplay-Bold.woff2') format('woff2'), url('./fonts/SFProDisplay-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 100;
+  font-size: 15px;
+}
+p {
+  margin: 0;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+body {
+  color: #2f3835;
+  font-family: 'SFProDisplay-Regular', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

@@ -1,10 +1,14 @@
-// import logo from './logo.svg';
+import Header from './components/Header/Header';
+import MainPage from './components/MainPage/MainPage';
+
 import './App.css';
 
 function App() {
   return (
-    // <img src={logo} className="App-logo" alt="logo" />
-    <div className="App"></div>
+    <div className="App">
+      <Header />
+      <MainPage />
+    </div>
   );
 }
 
